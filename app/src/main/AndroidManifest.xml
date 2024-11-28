@@ -13,13 +13,10 @@
         android:theme="@style/Theme.LatihanSharedPreferences1"
         tools:targetApi="31">
         <activity
-            android:name=".TambahEdit"
-            android:exported="false" />
-        <activity
             android:name=".Beranda"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name=".TambahEdit"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

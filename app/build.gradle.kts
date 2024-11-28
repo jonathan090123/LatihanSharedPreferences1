@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.latihansharedpreferences1"
+    namespace = "com.example.cobafunctiontambah"
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "com.example.latihansharedpreferences1"
+        applicationId = "com.example.cobafunctiontambah"
         minSdk = 33
         targetSdk = 34
         versionCode = 1
@@ -45,4 +45,5 @@ dependencies {
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
+    implementation(kotlin("script-runtime"))
 }
