@@ -1,0 +1,12 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Warna background tombol -->
+    <solid android:color="#013220" /> <!-- Warna putih -->
+
+    <!-- Tepi tombol -->
+    <stroke
+        android:width="3dp"
+        android:color="#000000" /> <!-- Warna hitam -->
+
+    <!-- Membulatkan sudut (opsional) -->
+    <corners android:radius="4dp" /> <!-- Radius sudut membulat -->
+</shape>
