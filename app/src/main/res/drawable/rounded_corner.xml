@@ -1,0 +1,4 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="#013220" /> <!-- Warna button -->
+    <corners android:radius="50dp" /> <!-- Membuat bentuk bundar -->
+</shape>
